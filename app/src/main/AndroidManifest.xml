@@ -11,23 +11,16 @@
         android:theme="@style/AppTheme">
 
         <!-- Main Activity (Now the Launch Activity) -->
-        <activity android:name=".MainActivity">
+        <activity android:name=".InfoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <!-- Login Activity -->
         <activity android:name=".LoginActivity"/>
-
-        <!-- Student Dashboard Activity -->
         <activity android:name=".StudentDashboardActivity"/>
-
-        <!-- Admin Dashboard Activity -->
         <activity android:name=".AdminDashboardActivity"/>
-
-        <!-- Registration Activity -->
         <activity android:name=".RegisterActivity"/>
 
     </application>

@@ -34,6 +34,8 @@ public class MainActivity extends Activity {
         }
 
         startActivity(intent);
-        finish(); // Close MainActivity to prevent users from coming back
+
+        finish();
+        // Close MainActivity to prevent users from coming back
     }
 }

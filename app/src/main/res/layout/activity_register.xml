@@ -1,73 +1,124 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:gravity="center">
+    android:background="#FFFFFF"
+    android:padding="24dp">
 
-    <TextView
+    <!-- Instagram-style Logo -->
+    <ImageView
+        android:id="@+id/imgInstagramLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_instagram_logo"
+        android:contentDescription="Instagram Logo" />
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/setEmail"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Register"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:gravity="center"/>
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="Mobile number or Email"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#9E9E9E"
+        android:layout_marginBottom="12dp"/>
 
+    <!-- Full Name Field -->
+    <EditText
+        android:id="@+id/setFullName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="Full Name"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#9E9E9E"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Username Field -->
     <EditText
         android:id="@+id/etNewUsername"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter Username"/>
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="Username"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#9E9E9E"
+        android:layout_marginBottom="12dp"
+        tools:ignore="InvalidId" />
 
+    <!-- Password Field -->
     <EditText
         android:id="@+id/etNewPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_border"
         android:hint="Enter Password"
-        android:inputType="textPassword"/>
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#9E9E9E"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"/>
+
 
     <EditText
         android:id="@+id/etConfirmPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_border"
         android:hint="Confirm Password"
-        android:inputType="textPassword"/>
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#9E9E9E"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"/>
 
-    <!-- User Role Selection -->
+
+    <!-- Register Button -->
     <RadioGroup
         android:id="@+id/rgUserRole"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
 
         <RadioButton
             android:id="@+id/rbStudent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Student"
-            android:checked="true"/>
+            android:checked="true"
+            android:text="Student" />
 
         <RadioButton
             android:id="@+id/rbAdmin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Admin"/>
+            android:text="Admin" />
     </RadioGroup>
 
     <Button
         android:id="@+id/btnRegister"
         android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#3897F0"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:onClick="registerUser" />
+
+
+    <!-- Login Redirect -->
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
-        android:onClick="registerUser"/>
-
-    <Button
-        android:id="@+id/btnBackToLogin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Back to Login"
-        android:onClick="goBackToLogin"/>
-
-
+        android:text="Already have an account? Log in"
+        android:textColor="#3897F0"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
 </LinearLayout>

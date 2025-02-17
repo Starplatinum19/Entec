@@ -28,6 +28,7 @@ public class RegisterActivity extends Activity {
     }
 
     public void registerUser(View view) {
+
         String username = etNewUsername.getText().toString().trim();
         String password = etNewPassword.getText().toString().trim();
         String confirmPassword = etConfirmPassword.getText().toString().trim();
