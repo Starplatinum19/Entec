@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Title -->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/instagram_logo"
+        android:contentDescription="Miami Dade College Logo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MDC ACADEMICS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingBottom="20dp"/>
+
+
+    <!-- Button 1: Academic Programs -->
+    <Button
+        android:id="@+id/btnAcademicPrograms"
+        style="@style/RoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Academic Programs"
+        android:onClick="openProfilePage"/>
+
+    <!-- Button 2: College Catalog -->
+    <Button
+        android:id="@+id/btnCollegeCatalog"
+        style="@style/RoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="College Catalog"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Button 3: Academic Calendar -->
+    <Button
+        android:id="@+id/btnAcademicCalendar"
+        style="@style/RoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Academic Calendar"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Button 4: The Honors College -->
+    <Button
+        android:id="@+id/btnHonorsCollege"
+        style="@style/RoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Honors College"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Button 5: MDC Online -->
+    <Button
+        android:id="@+id/btnMDCOnline"
+        style="@style/RoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MDC Online"
+        android:layout_marginTop="8dp"/>
+
+
+
+    <!-- Button 6: Continuing Education <Button
+        android:id="@+id/btnContinuingEducation"
+        style="@style/RoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continuing Education"
+        android:layout_marginTop="8dp"/>
+
+    Button 7: High School Programs
+    <Button
+        android:id="@+id/btnHighSchoolPrograms"
+        style="@style/RoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="High School Programs"
+        android:layout_marginTop="8dp"/>
+
+     Button 8: New World School of the Arts
+    <Button
+        android:id="@+id/btnNewWorldSchool"
+        style="@style/RoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New World School of the Arts"
+        android:layout_marginTop="8dp"/>
+
+
+    Login Redirect Button -->
+    <Button
+        android:id="@+id/btnGoToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Login"
+        android:background="@color/gray"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"
+        android:onClick="goToLogin"/>
+
+
+</LinearLayout>
