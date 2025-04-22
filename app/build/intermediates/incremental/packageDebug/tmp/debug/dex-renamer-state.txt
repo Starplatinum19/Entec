@@ -1,0 +1,4 @@
+#Wed Apr 16 21:26:48 EDT 2025
+base.0=C\:\\Users\\jchar\\iPAL Robot Code\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

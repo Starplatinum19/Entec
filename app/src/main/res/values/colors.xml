@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="primary">#1565C0</color> <!-- Dark Blue -->
+    <color name="primaryDark">#003c8f</color> <!-- Even Darker Blue -->
+    <color name="colorAccent">#FF4081</color> <!-- Modern Pink Accent -->
+    <color name="background">#E3F2FD</color> <!-- Light Blue Background -->
+    <color name="textColor">#212121</color> <!-- Dark Gray for Text -->
+    <color name="colorPrimary">#6200EA</color>
+    <color name="lightBlue">#E3F2FD</color>
+</resources>
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#E3F2FD</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#6200EA</color>
+    <color name="lightBlue">#E3F2FD</color>
+    <color name="primary">#1565C0</color>
+    <color name="primaryDark">#003c8f</color>
+    <color name="textColor">#212121</color>
+    <string name="app_name">experiment</string>
+    <string name="login_failed">Invalid Credentials!</string>
+    <string name="login_success">Login Successful!</string>
+    <string name="logout_message">Logged out successfully</string>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/textColor</item>
+    </style>
+</resources>

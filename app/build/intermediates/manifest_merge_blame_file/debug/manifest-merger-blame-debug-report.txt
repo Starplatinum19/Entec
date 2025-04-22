@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.experiment"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="25" />
+9-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:5:5-42:19
+12        android:allowBackup="true"
+12-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:6:9-35
+13        android:debuggable="true"
+14        android:icon="@mipmap/ic_launcher"
+14-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:7:9-43
+15        android:label="@string/app_name"
+15-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:8:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:9:9-54
+17        android:supportsRtl="true"
+17-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:10:9-35
+18        android:theme="@style/AppTheme" >
+18-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:11:9-40
+19
+20        <!-- Main Activity (Now the Launch Activity) -->
+21        <activity android:name="com.example.experiment.MainActivity" >
+21-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:14:9-19:20
+21-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:14:19-47
+22            <intent-filter>
+22-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:15:13-18:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:16:17-69
+23-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:16:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:17:17-77
+25-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:17:27-74
+26            </intent-filter>
+27        </activity>
+28
+29        <!-- Login Activity -->
+30        <activity android:name="com.example.experiment.LoginActivity" />
+30-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:22:9-50
+30-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:22:19-48
+31
+32        <!-- Student Dashboard Activity -->
+33        <activity android:name="com.example.experiment.StudentDashboardActivity" />
+33-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:25:9-61
+33-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:25:19-59
+34
+35        <!-- Admin Dashboard Activity -->
+36        <activity android:name="com.example.experiment.AdminDashboardActivity" />
+36-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:28:9-59
+36-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:28:19-57
+37
+38        <!-- Registration Activity -->
+39        <activity android:name="com.example.experiment.RegisterActivity" />
+39-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:31:9-53
+39-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:31:19-51
+40
+41        <!-- Add this inside the <application> tag -->
+42        <activity android:name="com.example.experiment.ManageRecommendationsActivity" />
+42-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:34:9-67
+42-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:34:19-64
+43        <activity android:name="com.example.experiment.StudentLandingPage" />
+43-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:36:9-56
+43-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:36:19-53
+44        <activity android:name="com.example.experiment.CareerInfoActivity" />
+44-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:38:9-56
+44-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:38:19-53
+45        <activity android:name="com.example.experiment.CareerDetailActivity" />
+45-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:40:9-58
+45-->C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:40:19-55
+46    </application>
+47
+48</manifest>

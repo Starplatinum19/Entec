@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">experiment</string>
+    <string name="login_success">Login Successful!</string>
+    <string name="login_failed">Invalid Credentials!</string>
+    <string name="logout_message">Logged out successfully</string>
+</resources>

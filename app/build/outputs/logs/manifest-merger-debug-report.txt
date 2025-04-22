@@ -1,0 +1,97 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:5:5-42:19
+	android:supportsRtl
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.experiment.MainActivity
+ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:14:9-19:20
+	android:name
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.example.experiment.LoginActivity
+ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:22:9-50
+	android:name
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:22:19-48
+activity#com.example.experiment.StudentDashboardActivity
+ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:25:9-61
+	android:name
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:25:19-59
+activity#com.example.experiment.AdminDashboardActivity
+ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:28:9-59
+	android:name
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:28:19-57
+activity#com.example.experiment.RegisterActivity
+ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:31:9-53
+	android:name
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:31:19-51
+activity#com.example.experiment.ManageRecommendationsActivity
+ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:34:9-67
+	android:name
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:34:19-64
+activity#com.example.experiment.StudentLandingPage
+ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:36:9-56
+	android:name
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:36:19-53
+activity#com.example.experiment.CareerInfoActivity
+ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:38:9-56
+	android:name
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:38:19-53
+activity#com.example.experiment.CareerDetailActivity
+ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:40:9-58
+	android:name
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml:40:19-55
+uses-sdk
+INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jchar\iPAL Robot Code\app\src\main\AndroidManifest.xml
