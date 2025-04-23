@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\emigo\\Desktop\\Project-Entec-main\\Entec-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\emigo\\Desktop\\Project-Entec-main\\Entec-main\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "41",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "469"
+                    },
+                    "to": {
+                        "startLines": "13",
+                        "startColumns": "4",
+                        "startOffsets": "606",
+                        "endLines": "19",
+                        "endColumns": "12",
+                        "endOffsets": "1034"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\emigo\\Desktop\\Project-Entec-main\\Entec-main\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "6,5,8,9,3,4,7",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "263,189,411,458,56,117,339",
+                        "endColumns": "44,45,46,43,41,45,43",
+                        "endOffsets": "303,230,453,497,93,158,378"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,100,146,193,237,279,325",
+                        "endColumns": "44,45,46,43,41,45,43",
+                        "endOffsets": "95,141,188,232,274,320,364"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\emigo\\Desktop\\Project-Entec-main\\Entec-main\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,3,2,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "16,124,64,186",
+                        "endColumns": "47,61,59,66",
+                        "endOffsets": "59,181,119,248"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "369,417,479,539",
+                        "endColumns": "47,61,59,66",
+                        "endOffsets": "412,474,534,601"
+                    }
+                }
+            ]
+        }
+    ]
+}

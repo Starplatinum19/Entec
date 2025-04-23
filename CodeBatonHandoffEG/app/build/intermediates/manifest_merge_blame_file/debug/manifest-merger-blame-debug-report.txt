@@ -1,0 +1,81 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.experiment"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="25" />
+9-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:5:5-42:19
+12        android:allowBackup="true"
+12-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:6:9-35
+13        android:debuggable="true"
+14        android:icon="@mipmap/ic_launcher"
+14-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:7:9-43
+15        android:label="@string/app_name"
+15-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:8:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:9:9-54
+17        android:supportsRtl="true"
+17-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:10:9-35
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:11:9-40
+20
+21        <!-- Main Activity (Now the Launch Activity) -->
+22        <activity android:name="com.example.experiment.MainActivity" >
+22-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:14:9-19:20
+22-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:14:19-47
+23            <intent-filter>
+23-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:15:13-18:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:16:17-69
+24-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:16:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:17:17-77
+26-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:17:27-74
+27            </intent-filter>
+28        </activity>
+29
+30        <!-- Login Activity -->
+31        <activity android:name="com.example.experiment.LoginActivity" />
+31-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:22:9-50
+31-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:22:19-48
+32
+33        <!-- Student Dashboard Activity -->
+34        <activity android:name="com.example.experiment.StudentDashboardActivity" />
+34-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:25:9-61
+34-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:25:19-59
+35
+36        <!-- Admin Dashboard Activity -->
+37        <activity android:name="com.example.experiment.AdminDashboardActivity" />
+37-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:28:9-59
+37-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:28:19-57
+38
+39        <!-- Registration Activity -->
+40        <activity android:name="com.example.experiment.RegisterActivity" />
+40-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:31:9-53
+40-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:31:19-51
+41
+42        <!-- Add this inside the <application> tag -->
+43        <activity android:name="com.example.experiment.ManageRecommendationsActivity" />
+43-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:34:9-67
+43-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:34:19-64
+44        <activity android:name="com.example.experiment.StudentLandingPage" />
+44-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:36:9-56
+44-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:36:19-53
+45        <activity android:name="com.example.experiment.CareerInfoActivity" />
+45-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:38:9-56
+45-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:38:19-53
+46        <activity android:name="com.example.experiment.CareerDetailActivity" />
+46-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:40:9-58
+46-->C:\Users\emigo\Desktop\Project-Entec-main\Entec-main\app\src\main\AndroidManifest.xml:40:19-55
+47    </application>
+48
+49</manifest>

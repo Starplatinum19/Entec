@@ -1,0 +1,4 @@
+#Wed Apr 23 11:07:32 EDT 2025
+base.0=C\:\\Users\\emigo\\Desktop\\Project-Entec-main\\Entec-main\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

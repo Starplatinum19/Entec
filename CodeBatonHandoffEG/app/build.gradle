@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "35.0.1"
+    defaultConfig {
+        applicationId "com.example.experiment"
+        minSdkVersion 25
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2') {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+}
+
+// Path to the Admin Tool directory (one level above Entec-main)
+def adminToolDir = file("$rootDir/../Admin Tool")
+
+// 1. Run the Python scraper before every build
+task runAdminTool(type: Exec) {
+    workingDir adminToolDir
+    // On Windows, switch to 'py' if 'python' isn't on your PATH
+    commandLine 'python', 'admintool.py', '--output', 'JobsData'
+}
+
+// 2. Copy whatever .xlsx files it produced into app/src/main/assets/JobsData
+task copyJobsData(type: Copy) {
+    dependsOn runAdminTool
+    from("$adminToolDir/JobsData")
+    into("$projectDir/src/main/assets/JobsData")
+}
+
+// 3. Hook the copy task into the standard build flow
+preBuild.dependsOn copyJobsData
