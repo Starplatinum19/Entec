@@ -44,7 +44,7 @@ ENTEC is an Android mobile application designed to provide students with compreh
 - **User Management**: Oversee student and admin accounts
 
 ### **Career Database**
-- **Dataset**: `occupation_15_filtered.csv` (15 occupations filtered)
+- **Dataset**: `occupation_15_filtered.csv` (15,000 occupations filtered)
 - **Data Fields**:
   - Occupation title and code
   - Employment statistics (2023 baseline, % change projection)
